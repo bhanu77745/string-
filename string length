@@ -1,0 +1,14 @@
+program for calculate the string length
+
+import java.io.*;
+import java.util.*;
+public class chandu{
+public static void main(String[] args){
+String s,s1;
+Scanner sc=new Scanner(System.in);
+s=sc.nextLine();
+s1=sc.nextLine();
+if(s.equalsto(s1)){
+System.out.println("the given string mathces");}
+else{
+System.out.println("the string doesn't matches");}}}
