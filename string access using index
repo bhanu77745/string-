@@ -1,0 +1,24 @@
+given a string and access an individual ekement using users commit
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Typetester {
+    static public void main(String args[] ) {
+    	
+    	int n;
+    	Scanner sc=new Scanner(System.in);
+    	String s;
+    	System.out.println("enter the string ");
+    	s=sc.nextLine();
+    	System.out.println("enter the index");
+    	n=sc.nextInt();
+    	if(n<=s.length()) {
+    	char ch=s.charAt(n);
+    	System.out.println(ch);
+    	}
+    	else {
+    		System.out.println("given " +n+" value is out boundary");
+    	}
+    }
+}
